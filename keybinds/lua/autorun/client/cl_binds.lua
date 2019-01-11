@@ -159,14 +159,14 @@ function keybinds.saveBinds()
     
     binds = util.TableToJSON(binds)
 
-    file.CreateDir("br_base")
+    file.CreateDir("keybinds")
 
-    file.Write("br_base/keybinds.txt", binds)
+    file.Write("keybinds/keybinds.txt", binds)
 end
 
 function keybinds.loadBinds()
 
-    local binds = file.Read("br_base/keybinds.txt", "DATA")
+    local binds = file.Read("keybinds/keybinds.txt", "DATA")
 
     binds = util.JSONToTable(binds)
 
