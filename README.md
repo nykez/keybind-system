@@ -1,6 +1,6 @@
 # keybind-system
 
-A simple keybind system.
+A simple keybind system. This is a pure cilent-side implementation. 
 
 
 ```br_base.keybinds.loadBinds()``` // Load player binds if they have them saved
