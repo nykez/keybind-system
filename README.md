@@ -1,6 +1,7 @@
 # keybind-system
 
-A simple keybind system. This is a pure cilent-side implementation. 
+A simple keybind system. This is a pure cilent-side implementation. I wrote this for a side project, and thought maybe, it would be useful to somebody.
+
 
 
 ```keybinds.loadBinds()``` // Load player binds if they have them saved
