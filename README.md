@@ -10,7 +10,7 @@ A simple keybind system.
 
 ```br_base.keybinds.RegisterBind(strUnique, helpText, enumKey, funcDown, funcUp)```
 
-```
+```lua
 br_base.keybinds.RegisterBind("doSomething", "Using this button will do something.", KEY_G, 
 // Button down func
 function()
