@@ -23,7 +23,14 @@ function keybinds.RegisterBind(strUnique, helpText, enumKey, funcDown, funcUp)
 
 end
 
-function keybinds.setBind(strUnique, enumKey)
+function keybinds.setBind(strUnique, enumKey, bClear)
+    if (bClear) then
+            
+            keybinds.cache[strUnique].key = nil
+            keybinds.index[enumKey] = nil
+            return
+    end
+        
     keybinds.cache[strUnique].key = enumKey
     keybinds.index[enumKey] = keybinds.cache[strUnique]
 end
