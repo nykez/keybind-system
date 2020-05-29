@@ -8,10 +8,10 @@ keybinds.blacklistKeys = {
 }
 
 
-// READ ME:
-// If you change a UniqueID of any keybind, it will cause the player's keybinds to not work properly.
-// Everything here is clientside. Don't do verifications here. 
-// You can add blacklist keys in the table above. [ENUM]
+-- READ ME:
+-- If you change a UniqueID of any keybind, it will cause the player's keybinds to not work properly.
+-- Everything here is clientside. Don't do verifications here. 
+-- You can add blacklist keys in the table above. [ENUM]
 
 function keybinds.RegisterBind(strUnique, helpText, enumKey, funcDown, funcUp)
     
