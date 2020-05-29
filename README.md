@@ -16,11 +16,11 @@ A simple keybind system. This is a pure cilent-side implementation. I wrote this
 
 ```lua
 keybinds.RegisterBind("doSomething", "Using this button will do something.", KEY_G, 
-// Button down func
+-- Button down func
 function()
   print("hello world")
 end,
-// Button up func
+-- Button up func
 function()
   print("hello world")
 end)
