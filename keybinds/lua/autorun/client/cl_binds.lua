@@ -120,7 +120,8 @@ hook.Add("PlayerButtonDown", "keybinds.ButtonDown", function(pPlayer, button)
 end)
 
 
-// Resets player's keybinds back to the defaults.
+-- Resets player's keybinds back to the defaults.
+    
 function keybinds.resetDefault()
     local different = false
     for k,v in pairs(keybinds.cache) do
